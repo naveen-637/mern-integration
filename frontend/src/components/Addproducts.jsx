@@ -50,7 +50,7 @@ export default function Addproducts() {
   }
 
   return (
-    <div className="flex justify-center items-center min-h-[70vh] px-6">
+    <div className="flex justify-center text-black items-center min-h-[70vh] px-6">
 
       {/* FORM CARD */}
       <div className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-lg">
@@ -79,7 +79,7 @@ export default function Addproducts() {
 
           {/* PRICE */}
           <div>
-            <label className="block text-gray-700 font-medium mb-1">
+            <label className="block text-black text-gray-700 font-medium mb-1">
               Price
             </label>
             <input

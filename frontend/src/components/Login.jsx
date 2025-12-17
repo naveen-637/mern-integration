@@ -33,7 +33,7 @@ export default function Login() {
               type="email"
               placeholder="Enter your email"
               onChange={(e) => sete(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-400"
+              className="w-full px-4 py-2 border border-gray-300 text-black rounded-md focus:outline-none focus:ring-2 focus:ring-sky-400"
             />
           </div>
 
