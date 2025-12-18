@@ -1,31 +1,43 @@
-import React from 'react'
+import React from "react";
 
 export default function About() {
   return (
-    <div className="flex justify-center items-center min-h-[70vh] px-6">
+    <section className="bg-gradient-to-b from-sky-50 to-white py-20 px-6">
+      <div className="mx-auto max-w-4xl">
 
-      {/* ABOUT CARD */}
-      <div className="bg-white rounded-2xl shadow-lg p-8 max-w-2xl text-center">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-extrabold text-gray-900 tracking-tight">
+            About Us
+          </h2>
+          <p className="mt-3 text-lg text-gray-600">
+            Built for speed, simplicity, and trust.
+          </p>
+        </div>
 
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">
-          About Us
-        </h2>
+        {/* Content Card */}
+        <div className="bg-white rounded-2xl shadow-xl p-10 md:p-14">
 
-        <p className="text-gray-600 mb-4">
-          Welcome to <span className="font-semibold text-gray-800">My App</span>,
-          your trusted e-commerce platform for quality products and seamless shopping.
-        </p>
+          <p className="text-gray-700 leading-relaxed mb-6">
+            Welcome to{" "}
+            <span className="font-semibold text-gray-900">My App</span>, a modern
+            e-commerce platform designed to deliver high-quality products with a
+            frictionless shopping experience.
+          </p>
 
-        <p className="text-gray-600 mb-4">
-          Our goal is to provide customers with a simple, fast, and secure
-          online shopping experience, powered by modern web technologies.
-        </p>
+          <p className="text-gray-700 leading-relaxed mb-6">
+            We focus on performance, usability, and security — ensuring customers
+            can browse, purchase, and track orders without confusion or delay.
+            Every feature is built with real users in mind.
+          </p>
 
-        <p className="text-gray-600">
-          Built with ❤️ using React and Tailwind CSS.
-        </p>
+          <div className="border-t pt-6 text-sm text-gray-500">
+            Built with <span className="font-medium text-gray-700">React</span> &
+            <span className="font-medium text-gray-700"> Tailwind CSS</span>.
+          </div>
 
+        </div>
       </div>
-    </div>
-  )
+    </section>
+  );
 }
